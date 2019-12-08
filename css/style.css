@@ -157,9 +157,8 @@ li{
     width: 730px;
     height: 249px;
     position: relative;
-    background: red;
+    background: #FFF;
     border-radius: 5px;
-    color: #fff;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
     top: 317px;
     left: 20px;
@@ -460,6 +459,7 @@ input[type="email"].newsletter_input_sidebar:-moz-placeholder {/* Firefox 18- */
     border-radius: 3px;
     margin: 0 10px;
     padding: 11px 15px 12px 14px;
+    cursor: pointer;
 }
 
 .pagination_rectangele1{
@@ -470,6 +470,12 @@ input[type="email"].newsletter_input_sidebar:-moz-placeholder {/* Firefox 18- */
     border-radius: 3px;
     margin: 0 10px;
     padding: 11px 15px 12px 14px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.pagination_rectangele:hover{
     background: #000;
     color: #fff;
 }
