@@ -26,6 +26,23 @@ body{
 .navigation_title{
     margin: 34px 0;
     cursor: pointer;
+    position: relative;
+    left: 8%;
+    right: 75.26%;
+    top: 0 ;
+    bottom: 36.67%;
+}
+
+.navigation_menu{
+    height: 18px;
+    position: relative;
+    left: -4%;
+    right: 40.42%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
 }
 
 .title_span{
@@ -41,6 +58,10 @@ a{
 
 .navigation_search{
     margin: 33px 0;
+    position: relative;
+    width: 16px;
+    height: 17px;
+   left: -180px;
 }
 
 .search_icon{
@@ -54,7 +75,7 @@ ul{
 
 li{
     display: inline-block;
-    padding: 0 25px;
+    padding: 0 15px;
     cursor: pointer;
 }
 
@@ -66,7 +87,7 @@ li{
     height: 560.53px;
     left: 375px;
     top: 120px;
-    margin: 30px auto 79px auto ;
+    margin: 30px auto 80px auto ;
 }
 .responsie_images{
     max-width: 100%;
@@ -130,8 +151,8 @@ li{
 
 /*articles */
 .main_aricles{
-    width: 840px;
-    height: 3056px;
+    width: 770px;
+    height: 2813px‬;
     left: 375px;
     top: 760px;
     position: absolute;
@@ -140,6 +161,8 @@ li{
 .article{
     width: 770px;
     height: 560px;
+    margin: 0;
+    padding: 0;
 }
 .article_images_container{
     position: absolute;
@@ -157,12 +180,13 @@ li{
     width: 730px;
     height: 249px;
     position: relative;
-    background: red;
+    background: #FFF;
     border-radius: 5px;
-    color: #fff;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
     top: 317px;
     left: 20px;
+    margin: 0;
+    padding: 0;
 }
 
 .description_article h2{
@@ -205,7 +229,7 @@ li{
     position: absolute;
     width: 270px;
     height: 2761px;
-    left: 1275px;
+    left: 1260px;
     top: 759px;
 }
 
@@ -301,10 +325,16 @@ li{
     font-weight: normal;
 }
 
+.popular_post_box3 {
+    margin:39px 0 39px 0;
+}
+
+
 /*instagram widget */
 .instagram_widget{
     width: 270px;
     height: 516px;
+    padding-top: 60px;
 }
 
 .instagram_photos_container{
@@ -445,11 +475,12 @@ input[type="email"].newsletter_input_sidebar:-moz-placeholder {/* Firefox 18- */
 /*pagination */
 .pagination_container{
     display: flex;
-    width: 340px;
+    width: 410px;
     height: 40px;
     position: absolute;
     left: 375px;
     top: 3880px;
+    margin-top: 67px;
 }
 
 .pagination_rectangele{
@@ -460,6 +491,7 @@ input[type="email"].newsletter_input_sidebar:-moz-placeholder {/* Firefox 18- */
     border-radius: 3px;
     margin: 0 10px;
     padding: 11px 15px 12px 14px;
+    cursor: pointer;
 }
 
 .pagination_rectangele1{
@@ -470,6 +502,12 @@ input[type="email"].newsletter_input_sidebar:-moz-placeholder {/* Firefox 18- */
     border-radius: 3px;
     margin: 0 10px;
     padding: 11px 15px 12px 14px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.pagination_rectangele:hover{
     background: #000;
     color: #fff;
 }
@@ -483,9 +521,19 @@ input[type="email"].newsletter_input_sidebar:-moz-placeholder {/* Firefox 18- */
 .most_popular_posts_container{
     position: absolute;
     width: 1170px;
-    height: 364px;
+    height: 480px;
     left: 375px;
-    top: 4000px;    
+    top: 4000px;
+}
+
+.title_most_popular_post{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 39px;
+    color: #171717;
+    padding: 0;
+    margin: 80px 0 27px 0;
 }
 
 .most_popular_posts{
