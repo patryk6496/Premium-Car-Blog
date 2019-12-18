@@ -9,30 +9,11 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="icons/css/fontawesome.min.css">
-    <script src="js/hamburger.js"></script>
 </head>
 
 <body>
     <div class="container">
         <header>
-
-            <!-- hamburger menu -->
-            <button class="hamburger">
-                    <span class="hamburger__box">
-                      <span class="hamburger__inner"></span>
-                    </span>
-                  </button>
-                  <div class="hamburger__navigation">
-                    <ul class="hamburger__navigation__list">
-                      <li class="hamburger__navigation__list--item"><a href="">Home</a></li>
-                      <li class="hamburger__navigation__list--item"><a href="">Recipes</a></li>
-                      <li class="hamburger__navigation__list--item"><a href="">Article</a></li>
-                      <li class="hamburger__navigation__list--item"><a href="">Contact</a></li>
-                      <li class="hamburger__navigation__list--item"><a href="">Purchase</a></li>
-                    </ul>
-                  </div>
-            
-            
             <!-- navigation -->
             <nav class="navigation_container">
                 <div class="navigation_title">
@@ -51,6 +32,36 @@
                     <img class="search_icon" src="icons/iconfinder_icon-111-search_314478.svg">
                 </div>
             </nav>
+
+            <!-- hamburger menu -->
+            <div class="navigation__container">
+                <div id="menuToggle" tabindex="">
+
+                    <input type="checkbox" />
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                    <ul id="menu">
+                        <a class="navigation__list" href="index.html">
+                            <li>Home</li>
+                        </a>
+                        <a class="navigation__list" href="#">
+                            <li>Recipes</li>
+                        </a>
+                        <a class="navigation__list" href="#">
+                            <li>Article</li>
+                        </a>
+                        <a class="navigation__list" href="#">
+                            <li>Contact</li>
+                        </a>
+                        <a class="navigation__list" href="#">
+                            <li>Purchase</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
         </header>
         <!-- hero -->
         <div class="hero_images">
@@ -290,8 +301,9 @@
             </div>
         </section>
         <div class="pagination_container">
-            <div class="pagination_rectangele"><</div>
-            <div class="pagination_rectangele1">1</div>
+            <div class="pagination_rectangele">
+                <</div> <div class="pagination_rectangele1">1
+            </div>
             <div class="pagination_rectangele">2</div>
             <div class="pagination_rectangele">3</div>
             <div class="pagination_rectangele">...</div>
@@ -371,7 +383,7 @@
                         <img class="icons_image" src="icons/google-plus.svg" alt="facebook" width="21px" height="14px">
                     </div>
                     <div class="icon1">
-                            <a class="btn-icon" href="#"><i class="fab fa-instagram"></i></a>
+                        <a class="btn-icon" href="#"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
@@ -379,32 +391,32 @@
 
             <div class="recent_post_container">
                 <h2 class="title_recent_post">Recent post</h2>
-                    <div class="recent_post-1">
-                        <div class="recent_post_images">
-                            <img class="recent_images" src="./images/mercedes outdoor.jpg" alt="mercedes outdoor">
-                        </div>
-                        <div class="recent_post_text">
-                            <h2>One of Saturn’s largest rings may be newer than…</h2>
-                            <h6>Rickie Baroch - June 6, 2019</h6>
-                        </div>
+                <div class="recent_post-1">
+                    <div class="recent_post_images">
+                        <img class="recent_images" src="./images/mercedes outdoor.jpg" alt="mercedes outdoor">
                     </div>
-                    <div class="recent_post">
-                        <div class="recent_post_images">
-                            <img class="recent_images" src="./images/audi suv.jpg" alt="audi suv">
-                        </div>
-                        <div class="recent_post_text">
-                            <h2>One of Saturn’s largest rings may be newer than…</h2>
-                            <h6>Rickie Baroch - June 6, 2019</h6>
-                        </div>
+                    <div class="recent_post_text">
+                        <h2>One of Saturn’s largest rings may be newer than…</h2>
+                        <h6>Rickie Baroch - June 6, 2019</h6>
                     </div>
-                    <div class="recent_post">
-                        <div class="recent_post_images">
-                            <img class="recent_images" src="./images/ferrari gts.jpg" alt="ferrari gts">
-                        </div>
-                        <div class="recent_post_text">
-                            <h2>One of Saturn’s largest rings may be newer than…</h2>
-                            <h6>Rickie Baroch - June 6, 2019</h6>
-                        </div>
+                </div>
+                <div class="recent_post">
+                    <div class="recent_post_images">
+                        <img class="recent_images" src="./images/audi suv.jpg" alt="audi suv">
+                    </div>
+                    <div class="recent_post_text">
+                        <h2>One of Saturn’s largest rings may be newer than…</h2>
+                        <h6>Rickie Baroch - June 6, 2019</h6>
+                    </div>
+                </div>
+                <div class="recent_post">
+                    <div class="recent_post_images">
+                        <img class="recent_images" src="./images/ferrari gts.jpg" alt="ferrari gts">
+                    </div>
+                    <div class="recent_post_text">
+                        <h2>One of Saturn’s largest rings may be newer than…</h2>
+                        <h6>Rickie Baroch - June 6, 2019</h6>
+                    </div>
                 </div>
             </div>
 
