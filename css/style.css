@@ -81,14 +81,17 @@ li{
 }
 
 /*hero image */
+.hero-images-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .hero_images{
     display: flex;
-    position: absolute;
     width: 1170px;
     height: 560.53px;
-    left: 375px;
-    top: 120px;
-    margin: 0 auto 0 auto ;
+    margin: 27px auto 0 auto ;
 }
 .responsie_images{
     max-width: 100%;
@@ -151,12 +154,14 @@ li{
 }
 
 /*articles */
+.aricles-and-sidebar{
+    display: flex;
+}
 .main_aricles{
+    display: flex;
+    flex-direction: column;
     width: 770px;
     height: 2813px‬;
-    left: 375px;
-    top: 730px;
-    position: absolute;
 }
 
 .article, .article1{
@@ -248,11 +253,10 @@ li{
 
 /*sidebar */
 .sidebar_widget{
-    position: absolute;
+    display: flex;
+    flex-direction: column;
     width: 270px;
     height: 2761px;
-    left: 1260px;
-    top: 730px;
 }
 
 .sidebar_images{
