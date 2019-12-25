@@ -115,7 +115,7 @@ li{
 }
 
 .box2, .box4 {
-    padding: 0 29px;
+    padding: 0 39px;
 }
 
 .images_box{
@@ -156,32 +156,37 @@ li{
 /*articles */
 .aricles-and-sidebar{
     display: flex;
+    justify-content: center;
+    margin: 40px 0 0 0;
 }
 .main_aricles{
     display: flex;
     flex-direction: column;
+    height: 2813px;
     width: 770px;
-    height: 2813px‬;
+    margin-right: 130px;
 }
 
-.article, .article1{
-    width: 770px;
-    height: 510px;
-    margin-bottom: 180px;
-    padding: 0;
+.article2{
+    margin: 360px 0 0 0 ;
 }
 
-.article1{
-    width: 770px;
-    height: 430px;
-    margin-bottom: 180px;
-    padding: 0;
-    top: 760px;
+.article3{
+    margin:440px 0 0 0 ;
 }
+
+.article4{
+    margin: 450px 0 0 0 ;
+}
+
+.article5{
+    margin: 400px 0 0 0;
+}
+
 .article_images_container{
     position: absolute;
     width: 770px;
-    height: 440px;
+    height: 510px;
 }
 
 .article_images{
@@ -216,7 +221,20 @@ li{
     padding: 0;
 }
 
-.description_article h2 , .description_article1 h2{
+.description_article2{
+    width: 730px;
+    height: 249px;
+    position: relative;
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    top: 330px;
+    left: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.description_article h2 , .description_article1 h2,.description_article2 h2{
     width: 600px;
     height: 28px;
     font-style: normal;
@@ -228,7 +246,7 @@ li{
     padding: 72px 106px 15px 30px ;
 }
 
-.description_article h6, .description_article1 h6{
+.description_article h6, .description_article1 h6,.description_article2 h6{
     height: 18px;
     font-style: italic;
     font-weight: normal;
@@ -239,8 +257,8 @@ li{
     padding: 0 0 14px 30px;
 }
 
-.description_article h5, .description_article1 h5{
-    width: 700px;
+.description_article h5, .description_article1 h5,.description_article2 h5{
+    width: 614px;
     height: 72px;
     font-style: normal;
     font-weight: normal;
@@ -256,7 +274,7 @@ li{
     display: flex;
     flex-direction: column;
     width: 270px;
-    height: 2761px;
+    height: 2761px; 
 }
 
 .sidebar_images{
@@ -360,7 +378,7 @@ li{
 .instagram_widget{
     width: 270px;
     height: 516px;
-    padding-top: 60px;
+    padding-top: 140px;
 }
 
 .instagram_photos_container{
@@ -393,7 +411,8 @@ li{
 .tags_container{
     width: 267px;
     height: 300px;
-    margin: 60px 0 70px 0;
+    margin: 0px 0 70px 0;
+    padding: 180px 0 0 0 ;
 }
 
 .tags h2{
@@ -427,6 +446,7 @@ li{
 .newsletter_container{
     width: 270px;
     height: 279px;
+    padding: 10px 0 0 0;
 }
 
 .newsletter_container h3{
