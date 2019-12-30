@@ -523,10 +523,7 @@ input[type="email"].newsletter_input_sidebar:-moz-placeholder {/* Firefox 18- */
     display: flex;
     width: 410px;
     height: 40px;
-    position: absolute;
-    left: 375px;
-    top: 3880px;
-    margin-top: 67px;
+    margin: 500px 0 0 0px; 
 }
 
 .pagination_rectangele{
@@ -565,11 +562,9 @@ input[type="email"].newsletter_input_sidebar:-moz-placeholder {/* Firefox 18- */
 
 /*most popular */
 .most_popular_posts_container{
-    position: absolute;
     width: 1170px;
-    height: 480px;
-    left: 375px;
-    top: 4000px;
+    height: 365px;
+    margin: 0 auto 80px auto ;
 }
 
 .title_most_popular_post{
@@ -579,7 +574,7 @@ input[type="email"].newsletter_input_sidebar:-moz-placeholder {/* Firefox 18- */
     line-height: 39px;
     color: #171717;
     padding: 0;
-    margin: 80px 0 27px 0;
+    margin: 80px 0 0 0;
 }
 
 .most_popular_posts{
@@ -588,8 +583,8 @@ input[type="email"].newsletter_input_sidebar:-moz-placeholder {/* Firefox 18- */
 
 .post{
     width: 270px;
-    height: 298px;
-    margin: 27px 30px 80px 0px;
+    height: 300px;
+    margin: 27px 30px 0px 0px;
 }
 
 .post h2{
@@ -618,21 +613,30 @@ input[type="email"].newsletter_input_sidebar:-moz-placeholder {/* Firefox 18- */
 
 /*footer */
 footer{
-    position: absolute;
-    width: 1920px;
-    height: 594px;
-    left: 0px;
-    top: 4444px;
+    display: flex;
+    height: 500px;
     background: #171717;
-    margin-top: 80px;
+}
+
+.footer_container-items{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    padding-top: 62px;
+    margin: 0 auto 0 auto;
+}
+
+.logotype_and_icons{
+    width: 270px;
+    height: 425px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 168px 0 0;
 }
 
 .description_footer{
-    position: absolute;
+    width: 270px;
     height: 66px;
-    left: 19.53%;
-    right: 66.41%;
-    top: calc(50% - 66px/2 - 151px);
     font-size: 14px;
     line-height: 22px;
     font-style: normal;
@@ -643,12 +647,6 @@ footer{
 .logotype_footer{
     width: 100px;
     height: 23px;
-    position: absolute;
-    left: 19.53%;
-    right: 75.26%;
-    top: 10.44%;
-    bottom: 85.69%;
-    margin: 34px 0;
     cursor: pointer;
     color: #fff;
 }
@@ -656,10 +654,6 @@ footer{
 .logotype_rectangle{
     width: 39px;
     height: 23px;
-    position: absolute;
-    height: 18px;
-    left: 68%;
-    right: 7%;
     font-size: 14px;
     line-height: 18px;
     font-style: normal;
@@ -672,18 +666,12 @@ footer{
 }
 
 .keep_in_touch{
-    position: absolute;
-    left: 19.53%;
-    right: 68.49%;
-    top: 40.91%;
-    bottom: 45.12%;
     width: 230px;
     height: 83px;
     background: #000;
 }
 
 .keep_in_touch h2{
-    position: relative;
     width: 120px;
     height: 26px;
     margin: 0;
@@ -713,24 +701,17 @@ footer{
 }
 /*recent post footer*/
 .recent_post_container{
-    position: absolute;
-    left: 40.31%;
-    right: 44.43%;
-    top: 10.44%;
-    bottom: 24.07%;
     background: #171717;
     width: 293px;
-    height: 389px;
+    height: 425px;
     display: flex;
     flex-wrap: wrap;
+    margin-right: 164px;
 }
 
 .title_recent_post{
-    position: absolute;
     margin: 0;
     height: 26px;
-    left: 0%;
-    right: 63.14%;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -746,7 +727,7 @@ footer{
 }
 
 .recent_post-1{
-   margin-top: 54px;
+   padding-top: 30px;
 }
 
 .recent_post_text h2{
@@ -785,11 +766,8 @@ footer{
 /*newsletter footer*/
 .newsletter_footer{
     color: #fff;
-    position: absolute;
     width: 270px;
-    height: 234px;
-    left: 1176px;
-    top: 62px;
+    height: 425px;
 }
 
 .newsletter_footer h3{
@@ -798,34 +776,31 @@ footer{
     font-size: 20px;
     line-height: 26px;
     padding-bottom: 38px;
+    margin: 0;
 }
 
+/*footer navigation*/
 .footer_navigation{
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 84.18%;
-    bottom: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #000000;
     color: #fff;
 }
 
 .footer_copy{
-  position: absolute;
+    display: flex;
     height: 18px;
-    left: 19.53%;
-    right: 69.11%;
     font-size: 14px;
     line-height: 18px;
     color: #FFFFFF;
     font-style: normal;
     font-weight: normal;
+    margin-right: 590px;
 }
 
 .navigation_footer_container{
-    position: absolute;
-    left: 61.72%;
-    right: 19.9%;
+    display: flex;
     font-size: 14px;
     line-height: 18px;
     font-style: normal;
