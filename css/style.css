@@ -21,29 +21,15 @@ body{
     background: #000;
     color: #fff;
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
 }
 
 .navigation_title{
-    margin: 34px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
-    position: relative;
-    left: 8%;
-    right: 75.26%;
-    top: 0 ;
-    bottom: 36.67%;
-}
-
-.navigation_menu{
-    height: 18px;
-    position: relative;
-    left: -4.5%;
-    right: 40.42%;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 18px;
-    color: #FFFFFF;
+    margin-right: 300px;
 }
 
 .title_span{
@@ -52,17 +38,25 @@ body{
     padding: 3px 5px;
 }
 
+.navigation_menu{
+    height: 18px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-right: 305px;
+}
+
 a{
     color: inherit;
     text-decoration: none;
 }
 
 .navigation_search{
-    margin: 33px 0;
-    position: relative;
-    width: 16px;
-    height: 17px;
-   left: -180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .search_icon{
@@ -521,9 +515,9 @@ input[type="email"].newsletter_input_sidebar:-moz-placeholder {/* Firefox 18- */
 /*pagination */
 .pagination_container{
     display: flex;
-    width: 410px;
+    width: 100%;
     height: 40px;
-    margin: 500px 0 0 0px; 
+    margin: 500px 0 0 0;
 }
 
 .pagination_rectangele{
@@ -564,7 +558,7 @@ input[type="email"].newsletter_input_sidebar:-moz-placeholder {/* Firefox 18- */
 .most_popular_posts_container{
     width: 1170px;
     height: 365px;
-    margin: 0 auto 80px auto ;
+    margin: 0 auto 180px auto ;
 }
 
 .title_most_popular_post{
