@@ -8,6 +8,10 @@ body{
     overflow-x: hidden;
 }
 
+img{
+    cursor: pointer;
+}
+
 .container{
     width: 100vw;
     height: 100vh;
@@ -156,66 +160,33 @@ li{
 .main_aricles{
     display: flex;
     flex-direction: column;
-    height: 2813px;
+    height: auto;
     width: 770px;
     margin-right: 130px;
 }
 
-.article2{
-    margin: 360px 0 0 0 ;
+.article1, .article2, .article3 , .article4 , .article5{
+    width: 770px;
+    min-height: 560px;
 }
 
-.article3{
-    margin:440px 0 0 0 ;
-}
-
-.article4{
-    margin: 450px 0 0 0 ;
-}
-
-.article5{
-    margin: 400px 0 0 0;
+.article2, .article3 , .article4 , .article5{
+    margin: 60px 0 0 0 ;
 }
 
 .article_images_container{
     position: absolute;
     width: 770px;
-    height: 510px;
+    height: 440px;
 }
 
 .article_images{
-    max-width: 100%;
-    height: auto;
+    min-width: 770px;
+    height:100%;
     border-radius: 5px;
 }
 
-.description_article{
-    width: 730px;
-    height: 249px;
-    position: relative;
-    background: #FFF;
-    border-radius: 5px;
-    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
-    top: 390px;
-    left: 20px;
-    margin: 0;
-    padding: 0;
-}
-
-.description_article1{
-    width: 730px;
-    height: 249px;
-    position: relative;
-    background: #FFF;
-    border-radius: 5px;
-    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
-    top: 310px;
-    left: 20px;
-    margin: 0;
-    padding: 0;
-}
-
-.description_article2{
+.description_article-1, .description_article-2, .description_article-3,.description_article-4, .description_article-5{
     width: 730px;
     height: 249px;
     position: relative;
@@ -228,7 +199,7 @@ li{
     padding: 0;
 }
 
-.description_article h2 , .description_article1 h2,.description_article2 h2{
+.description_article-1 h2 , .description_article-2 h2,.description_article-3 h2, .description_article-4 h2, .description_article-5 h2{
     width: 600px;
     height: 28px;
     font-style: normal;
@@ -240,7 +211,7 @@ li{
     padding: 72px 106px 15px 30px ;
 }
 
-.description_article h6, .description_article1 h6,.description_article2 h6{
+.description_article-1 h6 , .description_article-2 h6,.description_article-3 h6, .description_article-4 h6, .description_article-5 h6{
     height: 18px;
     font-style: italic;
     font-weight: normal;
@@ -251,7 +222,7 @@ li{
     padding: 0 0 14px 30px;
 }
 
-.description_article h5, .description_article1 h5,.description_article2 h5{
+.description_article-1 h5 , .description_article-2 h5,.description_article-3 h5, .description_article-4 h5, .description_article-5 h5{
     width: 614px;
     height: 72px;
     font-style: normal;
@@ -273,7 +244,7 @@ li{
 
 .sidebar_images{
     width: 270px;
-    height: 200px;
+    height: 195px;
     border-radius: 3px;
 }
 
@@ -361,18 +332,18 @@ li{
     line-height: 18px;
     color: #666666;
     font-weight: normal;
+    padding: 0;
 }
 
 .popular_post_box3 {
-    margin:39px 0 39px 0;
+    margin:70px 0 70px 0;
 }
-
 
 /*instagram widget */
 .instagram_widget{
     width: 270px;
     height: 516px;
-    padding-top: 140px;
+    padding-top: 110px;
 }
 
 .instagram_photos_container{
@@ -406,7 +377,7 @@ li{
     width: 267px;
     height: 300px;
     margin: 0px 0 70px 0;
-    padding: 180px 0 0 0 ;
+    padding: 160px 0 0 0 ;
 }
 
 .tags h2{
@@ -433,6 +404,7 @@ li{
     border-radius: 3px;
     margin: 10px 10px 0 0 ;
     padding:7px 16px 5px 16px;
+    cursor: pointer;
 }
 
 
@@ -440,7 +412,7 @@ li{
 .newsletter_container{
     width: 270px;
     height: 279px;
-    padding: 10px 0 0 0;
+    padding: 40px 0 0 0;
 }
 
 .newsletter_container h3{
@@ -517,7 +489,7 @@ input[type="email"].newsletter_input_sidebar:-moz-placeholder {/* Firefox 18- */
     display: flex;
     width: 100%;
     height: 40px;
-    margin: 500px 0 0 0;
+    margin: 66px 0 0 0;
 }
 
 .pagination_rectangele{
@@ -577,7 +549,7 @@ input[type="email"].newsletter_input_sidebar:-moz-placeholder {/* Firefox 18- */
 
 .post{
     width: 270px;
-    height: 300px;
+    height: 195px;
     margin: 27px 30px 0px 0px;
 }
 
@@ -601,8 +573,8 @@ input[type="email"].newsletter_input_sidebar:-moz-placeholder {/* Firefox 18- */
 }
 
 .popular_images{
-    width: 270px;
-    height: 195px;
+    width: 100%;
+    height: 100%;
 }
 
 /*footer */
